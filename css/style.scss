@@ -24,7 +24,7 @@
 }
 
 html {
-  font-size: 18px;
+  font-size: 19px;
 }
 
 body {
@@ -52,6 +52,37 @@ body {
 
 .main {
   flex: 1 1 auto;
+}
+
+.alert {
+  background: #473bf0;
+  // .alert__container
+
+  &__container {
+  }
+
+  // .alert__content
+
+  &__content {
+    padding: 34px 0px 34px 0px;
+  }
+
+  // .alert__text
+
+  &__text {
+    font-size: 17px;
+    line-height: 171%;
+    letter-spacing: -0.01em;
+    text-align: center;
+    color: #ffffff;
+  }
+
+  // .alert__link
+
+  &__link {
+    color: #ffffff;
+    text-decoration: underline;
+  }
 }
 
 .footer {
