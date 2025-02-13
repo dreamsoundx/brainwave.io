@@ -29,7 +29,7 @@ html {
 
 body {
   font-family: "Gilroy", sans-serif;
-  color: #161c2d;
+  color: rgba(22, 28, 45, 0.7);
   line-height: 1;
   background: #fff;
 }
@@ -55,7 +55,7 @@ body {
 }
 
 .services {
-  background: #f4f7fa;
+  background: #ffffff;
   // .services__container
 
   &__container {
@@ -79,6 +79,7 @@ body {
     letter-spacing: -0.03em;
     text-align: center;
     max-width: 769px;
+    color: #161c2d;
     &:not(:last-child) {
       margin-bottom: 17px;
     }
@@ -91,7 +92,53 @@ body {
     letter-spacing: -0.01em;
     text-align: center;
     max-width: 769px;
-    color: rgba(22, 28, 45, 0.7);
+  }
+}
+.why-choose-us {
+  background: #f4f7fa;
+  // .why-choose-us__container
+
+  &__container {
+  }
+
+  // .why-choose-us__content
+
+  &__content {
+    padding: 92px 0px 135px 0px;
+    // display: flex;
+    // flex-direction: column;
+    // align-items: center;
+  }
+
+  //.why-choose-us__header
+
+  &__header {
+    max-width: 769px;
+    margin: 0px auto;
+  }
+
+  // .why-choose-us__title
+
+  &__title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 133%;
+    letter-spacing: -0.03em;
+    text-align: center;
+    color: #161c2d;
+    &:not(:last-child) {
+      margin-bottom: 17px;
+    }
+  }
+
+  // .why-choose-us__text
+
+  &__text {
+    line-height: 168%;
+    letter-spacing: -0.01em;
+    text-align: center;
+    max-width: 589px;
+    margin: 0 auto;
   }
 }
 
