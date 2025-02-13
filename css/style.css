@@ -95,7 +95,6 @@ body {
   font-size: 36px;
   line-height: 133%;
   letter-spacing: -0.03em;
-  max-width: 769px;
   color: #161c2d;
 }
 
@@ -134,10 +133,6 @@ body {
 .services__content {
   padding: 92px 0px 135px 0px;
 }
-.services__header {
-  max-width: 769px;
-  margin: 0px auto;
-}
 .services__title {
   text-align: center;
 }
@@ -157,10 +152,6 @@ body {
 }
 .why-choose-us__content {
   padding: 92px 0px 135px 0px;
-}
-.why-choose-us__header {
-  max-width: 769px;
-  margin: 0px auto;
 }
 .why-choose-us__title {
   text-align: center;
