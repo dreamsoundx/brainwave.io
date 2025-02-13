@@ -47,6 +47,16 @@ body {
   padding: 0px 15px;
 }
 
+.title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 133%;
+  letter-spacing: -0.03em;
+  text-align: center;
+  max-width: 769px;
+  color: #161c2d;
+}
+
 .header {
 }
 
@@ -70,16 +80,16 @@ body {
     align-items: center;
   }
 
+  //. services__ header
+
+  &__header {
+    max-width: 769px;
+    margin: 0px auto;
+  }
+
   // .services__title
 
   &__title {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 133%;
-    letter-spacing: -0.03em;
-    text-align: center;
-    max-width: 769px;
-    color: #161c2d;
     &:not(:last-child) {
       margin-bottom: 17px;
     }
@@ -91,7 +101,8 @@ body {
     line-height: 168%;
     letter-spacing: -0.01em;
     text-align: center;
-    max-width: 769px;
+    max-width: 589px;
+    margin: 0 auto;
   }
 }
 .why-choose-us {
@@ -120,12 +131,6 @@ body {
   // .why-choose-us__title
 
   &__title {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 133%;
-    letter-spacing: -0.03em;
-    text-align: center;
-    color: #161c2d;
     &:not(:last-child) {
       margin-bottom: 17px;
     }
