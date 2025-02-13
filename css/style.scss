@@ -52,7 +52,6 @@ body {
   font-size: 36px;
   line-height: 133%;
   letter-spacing: -0.03em;
-  text-align: center;
   max-width: 769px;
   color: #161c2d;
 }
@@ -62,6 +61,43 @@ body {
 
 .main {
   flex: 1 1 auto;
+}
+
+.promo {
+  // .promo__container
+  background: linear-gradient(270deg, rgba(0, 0, 0, 0) 0%, #161c2d 99.93%),
+    url("../assets/promo/promo-bg.jpg") 50% 0 / cover no-repeat;
+  &__container {
+  }
+
+  // .promo__content
+
+  &__content {
+    padding: 187px 0px 143px 0px;
+    max-width: 589px;
+  }
+
+  // .promo__title
+
+  &__title {
+    font-size: 60px;
+    line-height: 108%;
+    color: #ffffff;
+    &:not(:last-child) {
+      margin-bottom: 29px;
+    }
+  }
+
+  // .promo__text
+
+  &__text {
+    line-height: 168%;
+    letter-spacing: -0.01em;
+    color: rgba(255, 255, 255, 0.65);
+    max-width: 487px;
+  }
+}
+.title {
 }
 
 .services {
@@ -90,6 +126,7 @@ body {
   // .services__title
 
   &__title {
+    text-align: center;
     &:not(:last-child) {
       margin-bottom: 17px;
     }
@@ -131,6 +168,7 @@ body {
   // .why-choose-us__title
 
   &__title {
+    text-align: center;
     &:not(:last-child) {
       margin-bottom: 17px;
     }
