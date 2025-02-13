@@ -106,8 +106,8 @@ body {
 }
 
 .promo {
-  background: -webkit-gradient(linear, right top, left top, from(rgba(0, 0, 0, 0)), color-stop(99.93%, #161c2d)), url("../assets/promo/promo-bg.jpg") 50% 0/cover no-repeat;
-  background: linear-gradient(270deg, rgba(0, 0, 0, 0) 0%, #161c2d 99.93%), url("../assets/promo/promo-bg.jpg") 50% 0/cover no-repeat;
+  background: -webkit-gradient(linear, right top, left top, from(rgba(0, 0, 0, 0)), color-stop(99.93%, #161c2d)), url("../assets/promo/promo-bg.jpg") center/cover no-repeat;
+  background: linear-gradient(270deg, rgba(0, 0, 0, 0) 0%, #161c2d 99.93%), url("../assets/promo/promo-bg.jpg") center/cover no-repeat;
 }
 .promo__content {
   padding: 187px 0px 143px 0px;
