@@ -96,6 +96,41 @@ body {
           flex: 1 1 auto;
 }
 
+.services {
+  background: #f4f7fa;
+}
+.services__content {
+  padding: 92px 0px 135px 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.services__title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 133%;
+  letter-spacing: -0.03em;
+  text-align: center;
+  max-width: 769px;
+}
+.services__title:not(:last-child) {
+  margin-bottom: 17px;
+}
+.services__text {
+  line-height: 168%;
+  letter-spacing: -0.01em;
+  text-align: center;
+  max-width: 769px;
+  color: rgba(22, 28, 45, 0.7);
+}
+
 .alert {
   background: #473bf0;
 }
