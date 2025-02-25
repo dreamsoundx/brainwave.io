@@ -2,8 +2,8 @@
 &display=swap
 &subset=cyrillic-ext 
 */
-@import "_null";
 @import url('https://fonts.googleapis.com/css?family=Rubik:400,700&display=swap"');
+@import "_null";
 
 @font-face {
   font-family: "Gilroy";
@@ -96,7 +96,61 @@ body {
     max-width: 487px;
   }
 }
-.title {
+
+.facts {
+  border-bottom: 2px solid #d8d8d8;
+  // .facts__container
+
+  &__container {
+  }
+
+  // .facts__content
+
+  &__content {
+    padding: 80px 45px 75px 45px;
+  }
+
+  // .facts__items
+
+  &__items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0px -45px;
+    row-gap: 45px;
+  }
+
+  // .facts__item
+
+  &__item {
+    flex: 1 1 33.333%;
+    padding: 0px 45px;
+    min-width: 355px;
+  }
+
+  // .facts__value
+
+  &__value {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 121%;
+    letter-spacing: -0.04em;
+    color: #161c2d;
+  }
+
+  // .facts__text
+
+  &__text {
+    font-size: 17px;
+    line-height: 171%;
+    letter-spacing: -0.01em;
+    color: rgba(22, 28, 45, 0.7);
+  }
+}
+.item-fact {
+  display: flex;
+  justify-content: center;
+  column-gap: 30px;
 }
 
 .services {
