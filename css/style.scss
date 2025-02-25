@@ -147,9 +147,6 @@ body {
 
   &__content {
     padding: 92px 0px 135px 0px;
-    // display: flex;
-    // flex-direction: column;
-    // align-items: center;
   }
 
   //.why-choose-us__header
@@ -207,6 +204,81 @@ body {
     text-decoration: underline;
   }
 }
+
+// .reviews {
+//   // .reviews__container
+
+//   &__container {
+//   }
+
+//   // .reviews__content
+
+//   &__content {
+//     padding: 100px 0px 109px 0px;
+//   }
+
+//   // .reviews__items
+
+//   &__items {
+//     display: flex;
+//     flex-wrap: wrap;
+//     row-gap: 15px;
+//     margin: 0px -15px;
+//   }
+
+//   // .reviews__item
+
+//   &__item {
+//     flex: 1 1 33.333%;
+//     padding: 0px 15px;
+//   }
+// }
+// .item-reviews {
+//   display: flex;
+//   flex-direction: column;
+//   align-items: center;
+//   text-align: center;
+//   // .item-reviews__logo
+
+//   &__logo {
+//   }
+
+//   // .item-reviews__img
+
+//   &__img {
+//   }
+
+//   // .item-reviews__text
+
+//   &__text {
+//   }
+
+//   // .item-reviews__profile
+
+//   &__profile {
+//   }
+// }
+// .profile {
+//   // .profile__img
+
+//   &__img {
+//   }
+
+//   // .profile__body
+
+//   &__body {
+//   }
+
+//   // .profile__name
+
+//   &__name {
+//   }
+
+//   // .profile__position
+
+//   &__position {
+//   }
+// }
 
 .footer {
 }
