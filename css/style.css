@@ -170,6 +170,9 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -234,4 +237,106 @@ body {
 .alert__link {
   color: #ffffff;
   text-decoration: underline;
+}
+
+.reviews__content {
+  padding: 104px 0px 109px 0px;
+}
+.reviews__items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0px -30px;
+}
+.reviews__item {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 33.333%;
+          flex: 1 1 33.333%;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding: 0px 30px;
+}
+
+.item-reviews {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  display: flex;
+  flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  row-gap: 50px;
+  text-align: center;
+}
+.item-reviews__logo {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 35px;
+          flex: 0 0 35px;
+  width: 104px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+.item-reviews__img {
+  max-width: 100%;
+  max-height: 35px;
+}
+.item-reviews__text {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 142%;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: #161c2d;
+}
+.profile {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-column-gap: 19.46px;
+     -moz-column-gap: 19.46px;
+          column-gap: 19.46px;
+}
+.profile__image {
+  -ms-flex-item-align: center;
+      align-self: center;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 66px;
+          flex: 0 0 66px;
+  min-width: 66px;
+  height: 47px;
+}
+.profile__img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+}
+.profile__name {
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 171%;
+  letter-spacing: -0.01em;
+  color: #161c2d;
+}
+.profile__position {
+  font-size: 15px;
+  line-height: 173%;
+  letter-spacing: -0.01em;
+  color: rgba(22, 28, 45, 0.7);
 }

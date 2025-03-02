@@ -149,6 +149,7 @@ body {
 }
 .item-fact {
   display: flex;
+  align-items: flex-start;
   justify-content: center;
   column-gap: 30px;
 }
@@ -259,80 +260,122 @@ body {
   }
 }
 
-// .reviews {
-//   // .reviews__container
+.reviews {
+  // .reviews__container
 
-//   &__container {
-//   }
+  &__container {
+  }
 
-//   // .reviews__content
+  // .reviews__content
 
-//   &__content {
-//     padding: 100px 0px 109px 0px;
-//   }
+  &__content {
+    padding: 104px 0px 109px 0px;
+  }
 
-//   // .reviews__items
+  // .reviews__items
 
-//   &__items {
-//     display: flex;
-//     flex-wrap: wrap;
-//     row-gap: 15px;
-//     margin: 0px -15px;
-//   }
+  &__items {
+    display: flex;
+    margin: 0px -30px;
+  }
 
-//   // .reviews__item
+  // .reviews__item
 
-//   &__item {
-//     flex: 1 1 33.333%;
-//     padding: 0px 15px;
-//   }
-// }
-// .item-reviews {
-//   display: flex;
-//   flex-direction: column;
-//   align-items: center;
-//   text-align: center;
-//   // .item-reviews__logo
+  &__item {
+    flex: 1 1 33.333%;
+    flex-wrap: wrap;
+    padding: 0px 30px;
+  }
+}
+.item-reviews {
+  display: flex;
+  flex-direction: column;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 50px;
+  text-align: center;
 
-//   &__logo {
-//   }
+  // .item-reviews__logo
 
-//   // .item-reviews__img
+  &__logo {
+    flex: 0 0 35px;
+    width: 104px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+  }
 
-//   &__img {
-//   }
+  // .item-reviews__img
 
-//   // .item-reviews__text
+  &__img {
+    max-width: 100%;
+    max-height: 35px;
+  }
 
-//   &__text {
-//   }
+  // .item-reviews__text
 
-//   // .item-reviews__profile
+  &__text {
+    flex: 1 1 auto;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 142%;
+    letter-spacing: -0.02em;
+    text-align: center;
+    color: #161c2d;
+  }
 
-//   &__profile {
-//   }
-// }
-// .profile {
-//   // .profile__img
+  // .item-reviews__profile
 
-//   &__img {
-//   }
+  &__profile {
+  }
+}
+.profile {
+  display: flex;
+  column-gap: 19.46px;
 
-//   // .profile__body
+  // .profile__image
 
-//   &__body {
-//   }
+  &__image {
+    align-self: center;
+    flex: 0 0 66px;
+    min-width: 66px;
+    height: 47px;
+  }
 
-//   // .profile__name
+  // .profile__img
 
-//   &__name {
-//   }
+  &__img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+  }
 
-//   // .profile__position
+  // .profile__body
 
-//   &__position {
-//   }
-// }
+  &__body {
+  }
+
+  // .profile__name
+
+  &__name {
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 171%;
+    letter-spacing: -0.01em;
+    color: #161c2d;
+  }
+
+  // .profile__position
+
+  &__position {
+    font-size: 15px;
+    line-height: 173%;
+    letter-spacing: -0.01em;
+    color: rgba(22, 28, 45, 0.7);
+  }
+}
 
 .footer {
 }
