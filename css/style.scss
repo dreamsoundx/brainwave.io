@@ -276,7 +276,9 @@ body {
 
   &__items {
     display: flex;
+    flex-wrap: wrap;
     margin: 0px -30px;
+    row-gap: 60px;
   }
 
   // .reviews__item
