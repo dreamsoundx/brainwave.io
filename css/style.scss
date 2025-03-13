@@ -335,11 +335,11 @@ body {
 .profile {
   display: flex;
   column-gap: 19.46px;
+  align-items: center;
 
   // .profile__image
 
   &__image {
-    align-self: center;
     flex: 0 0 66px;
     min-width: 66px;
     height: 47px;
@@ -357,6 +357,7 @@ body {
   // .profile__body
 
   &__body {
+    align-self: flex-start;
   }
 
   // .profile__name
