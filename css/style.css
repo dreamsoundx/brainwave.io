@@ -349,3 +349,91 @@ body {
   letter-spacing: -0.01em;
   color: rgba(22, 28, 45, 0.7);
 }
+
+.consultancy {
+  background: #161c2d url("../assets/consultancy/bg.png") 50% 0/cover no-repeat;
+}
+.consultancy__content {
+  padding: 123px 0px 123px 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.consultancy__info {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 429px;
+          flex: 0 1 429px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  row-gap: 46px;
+}
+.consultancy__image {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 87px;
+          flex: 0 0 87px;
+  width: 87px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+.consultancy__icon {
+  max-width: 100%;
+  max-height: 87px;
+}
+.consultancy__body {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  row-gap: 18px;
+}
+.consultancy__title {
+  color: #ffffff;
+}
+.consultancy__text {
+  line-height: 168%;
+  letter-spacing: -0.01em;
+  color: rgba(255, 255, 255, 0.65);
+}
+.consultancy__form {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 350px;
+          flex: 0 1 350px;
+}
+
+.form-consultancy {
+  padding: 30px 25px 30px 25px;
+  background-color: #ffffff;
+  border: 1px solid #e7e9ed;
+  border-radius: 10px;
+  -webkit-box-shadow: 0 34px 33px -23px rgba(22, 28, 45, 0.13);
+          box-shadow: 0 34px 33px -23px rgba(22, 28, 45, 0.13);
+}
