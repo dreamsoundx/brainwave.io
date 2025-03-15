@@ -66,6 +66,26 @@ body {
   letter-spacing: -0.04em;
   color: #ffffff;
   text-align: center;
+  transition: all 0.3s ease;
+  &:hover {
+    background-color: #675df0;
+    // background-color: #736af4;
+  }
+
+  // .button_arrow
+
+  &_arrow {
+    display: inline-flex;
+    align-items: center;
+    column-gap: 44px;
+    &::after {
+      content: "";
+      flex: 0 0 15px;
+      min-width: 15px;
+      height: 15px;
+      background: url("../assets/button-arrow.svg") 0 0 no-repeat;
+    }
+  }
 }
 
 .header {
@@ -87,6 +107,16 @@ body {
   &__content {
     padding: 187px 0px 143px 0px;
     max-width: 589px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 35px;
+  }
+  // .promo__body
+
+  &__body {
+    display: flex;
+    flex-direction: column;
+    row-gap: 29px;
   }
 
   // .promo__title
@@ -95,9 +125,6 @@ body {
     font-size: 60px;
     line-height: 108%;
     color: #ffffff;
-    &:not(:last-child) {
-      margin-bottom: 29px;
-    }
   }
 
   // .promo__text
@@ -107,6 +134,11 @@ body {
     letter-spacing: -0.01em;
     color: rgba(255, 255, 255, 0.65);
     max-width: 487px;
+  }
+  // .promo__button
+
+  &__button {
+    align-self: flex-start;
   }
 }
 
