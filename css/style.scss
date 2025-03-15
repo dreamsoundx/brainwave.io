@@ -442,7 +442,7 @@ body {
     display: flex;
     row-gap: 40px;
     column-gap: 40px;
-    flex-wrap: wrap;
+    // flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
   }
@@ -551,10 +551,9 @@ body {
     font-size: 15px;
     font-family: "Gilroy", sans-serif;
     color: #000000;
-    line-height: 168%;
+    line-height: 173%;
     letter-spacing: -0.01em;
     &::placeholder {
-      line-height: 173%;
       color: rgba(22, 28, 45, 0.7);
     }
     &:focus::placeholder {
@@ -573,10 +572,9 @@ body {
     font-size: 15px;
     font-family: "Gilroy", sans-serif;
     color: #000000;
-    line-height: 168%;
+    line-height: 173%;
     letter-spacing: -0.01em;
     &:invalid {
-      line-height: 173%;
       color: rgba(22, 28, 45, 0.7);
     }
   }
@@ -588,6 +586,73 @@ body {
   }
 
   // .form-consultancy__button
+
+  &__button {
+    cursor: pointer;
+  }
+}
+
+.subscribe {
+  // .subscribe__container
+
+  &__container {
+  }
+
+  // .subscribe__content
+
+  &__content {
+    padding: 77px 0px 77px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    // flex-wrap: wrap;
+    column-gap: 48px;
+    row-gap: 30px;
+  }
+
+  // .subscribe__title
+
+  &__title {
+    flex: 0 1 530px;
+  }
+
+  // .subscribe__form
+
+  &__form {
+    flex: 0 1 480px;
+  }
+}
+
+.form-subscribe {
+  display: flex;
+  column-gap: 20px;
+  // .form-subscribe__item
+
+  &__item {
+    flex: 1 1 auto;
+  }
+
+  // .form-subscribe__input
+
+  &__input {
+    min-height: 59.95px;
+    width: 100%;
+    padding: 0px 19px 0px 19px;
+    border: 1px solid #e7e9ed;
+    border-radius: 8px;
+    font-size: 15px;
+    font-family: "Gilroy", sans-serif;
+    color: #000000;
+    line-height: 173%;
+    letter-spacing: -0.01em;
+    &::placeholder {
+      color: rgba(22, 28, 45, 0.7);
+    }
+    &:focus::placeholder {
+      font-size: 0;
+    }
+  }
+  // .form-subssribe__button
 
   &__button {
     cursor: pointer;
