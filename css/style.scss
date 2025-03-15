@@ -593,6 +593,7 @@ body {
 }
 
 .subscribe {
+  border-bottom: 2px solid #d8d8d8;
   // .subscribe__container
 
   &__container {
@@ -652,7 +653,7 @@ body {
       font-size: 0;
     }
   }
-  // .form-subssribe__button
+  // .form-subscribe__button
 
   &__button {
     cursor: pointer;
