@@ -317,6 +317,13 @@ body {
 @media (max-width: 929.98px) {
   .services__item {
     -webkit-box-flex: 0;
+        -ms-flex: 0 1 33.333%;
+            flex: 0 1 33.333%;
+  }
+}
+@media (max-width: 699.98px) {
+  .services__item {
+    -webkit-box-flex: 0;
         -ms-flex: 0 1 50%;
             flex: 0 1 50%;
   }
