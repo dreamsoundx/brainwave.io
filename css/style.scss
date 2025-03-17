@@ -279,12 +279,12 @@ body {
     padding: 0px 15px;
     min-width: 230px;
     transition: all 0.5s ease 0s;
-    // @media (max-width: 869.8px) {
-    //   flex: 0 1 50%;
-    // }
-    // @media (max-width: 579.8px) {
-    //   flex: 0 1 100%;
-    // }
+    @media (max-width: 929.98px) {
+      flex: 0 1 50%;
+    }
+    @media (max-width: 469.98px) {
+      flex: 0 1 100%;
+    }
   }
 }
 .item-services {
