@@ -47,6 +47,19 @@ body {
   padding: 0px 15px;
 }
 
+[class*="_ibg"] {
+  position: relative;
+}
+
+[class*="_ibg"] img {
+  object-fit: cover;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
 .title {
   font-weight: 700;
   font-size: 36px;
@@ -71,7 +84,6 @@ body {
     background-color: #675df0;
     box-shadow: 0 16px 24px 0 rgba(38, 38, 38, 0.2),
       0 8px 16px 0 rgba(38, 38, 38, 0.24);
-    // background-color: #736af4;
   }
 
   // .button_arrow
@@ -219,6 +231,9 @@ body {
 
   &__content {
     padding: 92px 0px 135px 0px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 92px;
   }
 
   //. services__description
@@ -246,7 +261,92 @@ body {
       margin-bottom: 92px;
     }
   }
+
+  // .services__items
+
+  &__items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0px -15px;
+    row-gap: 30px;
+  }
+
+  // .services__item
+
+  &__item {
+    flex: 0 1 25%;
+    padding: 0px 15px;
+    min-width: 230px;
+    transition: all 0.5s ease 0s;
+    // @media (max-width: 869.8px) {
+    //   flex: 0 1 50%;
+    // }
+    // @media (max-width: 579.8px) {
+    //   flex: 0 1 100%;
+    // }
+  }
 }
+.item-services {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  border: 1px solid #e7e9ed;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: all 0.5s ease 0s;
+  &:hover {
+    box-shadow: 0 10px 52px 0 rgba(0, 0, 0, 0.08);
+  }
+  // .item-services__image
+
+  &__image {
+    padding: 0px 0px 73.893% 0px;
+    border-bottom: 1px solid #e7e9ed;
+  }
+
+  // .item-services__img
+
+  &__img {
+  }
+
+  // .item-services__body
+
+  &__body {
+    flex: 1 1 auto;
+    padding: 15px 19px 15px 22px;
+  }
+  // .item-services__title
+
+  &__title {
+    font-size: 17px;
+    line-height: 171%;
+    letter-spacing: -0.01em;
+    color: #161c2d;
+    transition: all 0.3s ease 0s;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 10px;
+    &::after {
+      flex: 0 0 17px;
+      min-width: 17px;
+      height: 12px;
+      content: "";
+      background: url("../assets/services/icons/services-arrow.svg") 0 0
+        no-repeat;
+    }
+    &:hover {
+      color: #675df0;
+    }
+    &:hover::after {
+      transition: all 0.3s ease 0s;
+      background: url("../assets/services/icons/services-arrow_hover.svg") 0 0
+        no-repeat;
+    }
+  }
+}
+
 .why-choose-us {
   background: #f4f7fa;
   // .why-choose-us__container
