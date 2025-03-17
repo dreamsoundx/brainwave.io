@@ -100,7 +100,7 @@ body {
 .promo {
   // .promo__container
   background: linear-gradient(270deg, rgba(0, 0, 0, 0) 0%, #161c2d 99.93%),
-    url("../assets/promo/promo-bg.jpg") center / cover no-repeat;
+    url("../assets/promo/img/promo-bg.jpg") center / cover no-repeat;
   &__container {
   }
 
@@ -113,6 +113,12 @@ body {
     flex-direction: column;
     row-gap: 35px;
   }
+
+  // .promo__description
+
+  &__description {
+  }
+
   // .promo__body
 
   &__body {
@@ -215,18 +221,18 @@ body {
     padding: 92px 0px 135px 0px;
   }
 
-  //. services__ header
+  //. services__description
 
-  &__header {
+  &__description {
+    display: flex;
+    flex-direction: column;
+    row-gap: 17px;
+    text-align: center;
   }
 
   // .services__title
 
   &__title {
-    text-align: center;
-    &:not(:last-child) {
-      margin-bottom: 17px;
-    }
   }
 
   // .services__text
@@ -234,9 +240,11 @@ body {
   &__text {
     line-height: 168%;
     letter-spacing: -0.01em;
-    text-align: center;
     max-width: 589px;
     margin: 0 auto;
+    &:not(:last-child) {
+      margin-bottom: 92px;
+    }
   }
 }
 .why-choose-us {
@@ -428,8 +436,8 @@ body {
 }
 
 .consultancy {
-  background: #161c2d url("../assets/consultancy/bg.png") 50% 0 / cover
-    no-repeat;
+  background: #161c2d url("../assets/consultancy/img/consultancy-bg.png") 50% 0 /
+    cover no-repeat;
   // .consultancy__container
 
   &__container {
